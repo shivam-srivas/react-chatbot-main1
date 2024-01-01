@@ -14,6 +14,7 @@ import {
 import ChatContext from './ChatContext';
 
 export default function ChatProvider({ children }) {
+  
   const [historicMessages, setHistoricMessages] = useState([]);
   const [messages, setMessages] = useState([firstMessage]);
   const [user, setUser] = useState('');

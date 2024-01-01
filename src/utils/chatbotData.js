@@ -59,7 +59,7 @@ export const SCI_OPTIONS = [
     response: 'I need help',
     description: 'If you have questions or need assistance regarding loans, we\'re here to help. Our team of experts can provide information about different types of loans, eligibility criteria, and the application process. Feel free to reach out to us for personalized assistance.',
     reference: 'https://www.sciastra.com/contact/',
-  },
+  }
 ];
 
 export const HELP_START_OPTIONS = CONVERSATION_START.map((option, index) => ({
